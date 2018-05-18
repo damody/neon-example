@@ -1,6 +1,6 @@
 # appone
 neon example 
-see native/src/lib.rs & lib/index.html
+- see native/src/lib.rs & lib/index.html
 
 ```
 npm install
@@ -10,15 +10,16 @@ npm start
 
 # how to start
 
+```
 neon new appone
 cd appone
 npm install
 neon build
+```
+- modify lib/index.js
+- add    lib/index.html
 
-modify lib/index.js
-add    lib/index.html
-
-modify package.json like this
+- modify package.json like this
 
 ```
   "dependencies": {
