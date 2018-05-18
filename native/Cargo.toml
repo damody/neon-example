@@ -1,0 +1,16 @@
+[package]
+name = "appone"
+version = "0.1.0"
+authors = ["damody <liam.huang@4ipnet.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "appone"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"

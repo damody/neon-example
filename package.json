@@ -1,0 +1,24 @@
+{
+  "name": "appone",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "damody <liam.huang@4ipnet.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.1",
+    "electron-rebuild": "^1.7.3",
+    "neon-cli": "^0.1.22"
+  },
+  "devDependencies": {
+    "electron": "^2.0.1",
+    "electron-build-env": "^0.2.0",
+    "neon-cli": "^0.1.22"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-build-env neon build appone",
+    "postinstall": "npm run build",
+    "install": "neon build"
+  }
+}
