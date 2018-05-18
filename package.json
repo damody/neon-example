@@ -17,8 +17,6 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-build-env neon build appone",
-    "postinstall": "npm run build",
     "install": "neon build"
   }
 }
